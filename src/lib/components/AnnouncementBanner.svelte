@@ -1,7 +1,7 @@
 <script lang="ts">
-    export let pillText = "NEW";
-    export let mainText = "Campsite is winding down";
-    export let linkText = "Campsite's founders have joined Notion";
+    export let pillText = "BETA";
+    export let mainText = "Now accepting early access applications";
+    export let linkText = "Request your demo today";
 </script>
 
 <div class="flex justify-center w-full py-12">

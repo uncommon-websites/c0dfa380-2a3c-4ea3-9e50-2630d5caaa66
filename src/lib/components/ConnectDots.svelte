@@ -1,101 +1,114 @@
 <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-16 max-w-2xl mx-auto tracking-tight">
-        Connect the dots between posts<br />
-        and easily reference past decisions
+        See the full picture of<br />
+        each team member's growth
     </h2>
 
     <div class="relative max-w-4xl mx-auto mb-16">
         <!-- Mock UI -->
         <div class="bg-white rounded-xl shadow-xl border border-gray-200 overflow-hidden flex">
-            <!-- Main Post Area -->
+            <!-- Main Profile Area -->
             <div class="flex-1 p-8">
-                <div class="flex gap-4">
-                    <div class="w-10 h-10 rounded-full bg-gray-200 overflow-hidden flex-shrink-0">
-                        <img src="https://i.pravatar.cc/150?u=dan" alt="Dan" class="w-full h-full object-cover" />
+                <div class="flex gap-4 mb-6">
+                    <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden flex-shrink-0">
+                        <img src="https://i.pravatar.cc/150?u=sarah" alt="Sarah Chen" class="w-full h-full object-cover" />
                     </div>
-                    <div class="flex-1 space-y-2">
-                        <div class="flex items-baseline gap-2">
-                            <span class="font-semibold text-gray-900">Dan</span>
-                            <span class="text-xs text-gray-400">2m</span>
+                    <div class="flex-1">
+                        <div class="flex items-baseline gap-2 mb-1">
+                            <span class="text-xl font-semibold text-gray-900">Sarah Chen</span>
+                            <span class="text-sm text-gray-500">Senior Engineer</span>
                         </div>
-                        <div class="space-y-2">
-                            <div class="h-2 w-full bg-gray-100 rounded-full"></div>
-                            <div class="h-2 w-5/6 bg-gray-100 rounded-full"></div>
-                            <div class="h-2 w-4/6 bg-gray-100 rounded-full"></div>
+                        <div class="flex items-center gap-3 text-sm text-gray-600">
+                            <span>Engineering Team</span>
+                            <span class="text-gray-300">•</span>
+                            <span>Joined Jan 2023</span>
                         </div>
+                    </div>
+                </div>
 
-                        <!-- Reactions -->
-                        <div class="flex gap-2 mt-4">
-                            <button class="flex items-center gap-1 px-2 py-1 rounded-full bg-gray-50 border border-gray-200 text-xs text-gray-600">
-                                <span>👍</span> 3
-                            </button>
-                            <button class="flex items-center gap-1 px-2 py-1 rounded-full bg-gray-50 border border-gray-200 text-xs text-gray-600">
-                                <span>🎉</span> 1
-                            </button>
-                            <button class="flex items-center gap-1 px-2 py-1 rounded-full bg-gray-50 border border-gray-200 text-xs text-gray-600">
-                                <span>🔥</span> 1
-                            </button>
+                <!-- Performance Summary -->
+                <div class="bg-gray-50 rounded-lg p-4 mb-6">
+                    <div class="text-xs font-medium text-gray-500 mb-3">Q4 2024 SUMMARY</div>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div>
+                            <div class="text-2xl font-bold text-gray-900">12</div>
+                            <div class="text-xs text-gray-500">Major achievements</div>
                         </div>
-
-                        <!-- Backlink Notification -->
-                        <div class="mt-6 flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-100 relative">
-                            <div class="absolute -left-20 top-1/2 -translate-y-1/2 flex items-center gap-2">
-                                <span class="font-handwriting text-gray-400 text-sm italic text-right w-16 leading-tight">automatic backlinks</span>
-                                <svg width="40" height="20" viewBox="0 0 40 20" fill="none" class="text-gray-300">
-                                    <path d="M0,10 Q20,10 35,10" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrowhead-sm)" />
-                                    <defs>
-                                        <marker id="arrowhead-sm" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
-                                            <polygon points="0 0, 6 2, 0 4" fill="currentColor" />
-                                        </marker>
-                                    </defs>
-                                </svg>
-                            </div>
-                            <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
-                            <div class="text-sm text-gray-600">
-                                <span class="font-semibold text-gray-900">Ryan</span> referenced this in <span class="font-medium text-gray-900">Landing page refresh S24</span>
-                            </div>
+                        <div>
+                            <div class="text-2xl font-bold text-gray-900">8</div>
+                            <div class="text-xs text-gray-500">Leadership moments</div>
                         </div>
+                        <div>
+                            <div class="text-2xl font-bold text-gray-900">95%</div>
+                            <div class="text-xs text-gray-500">On-time delivery</div>
+                        </div>
+                    </div>
+                </div>
 
-                        <!-- Reply Input -->
-                        <div class="mt-4 flex gap-3 items-center">
-                            <div class="w-6 h-6 rounded-full bg-gray-200 overflow-hidden">
-                                <img src="https://i.pravatar.cc/150?u=me" alt="Me" class="w-full h-full object-cover" />
-                            </div>
-                            <div class="flex-1">
-                                <input type="text" placeholder="Reply" class="w-full bg-transparent text-sm placeholder-gray-400 focus:outline-none" />
-                            </div>
+                <!-- Recent Highlights -->
+                <div class="space-y-3">
+                    <div class="text-sm font-medium text-gray-900">Recent Highlights</div>
+                    <div class="flex items-start gap-3 p-3 bg-green-50 rounded-lg border border-green-100">
+                        <div class="w-8 h-8 rounded bg-green-100 flex items-center justify-center text-green-700 flex-shrink-0">
+                            ✓
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-sm font-medium text-gray-900">Shipped authentication refactor</div>
+                            <div class="text-xs text-gray-600 mt-1">Completed 3 days ahead of schedule • From Slack</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 p-3 bg-blue-50 rounded-lg border border-blue-100">
+                        <div class="w-8 h-8 rounded bg-blue-100 flex items-center justify-center text-blue-700 flex-shrink-0">
+                            ★
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-sm font-medium text-gray-900">Led design review session</div>
+                            <div class="text-xs text-gray-600 mt-1">Facilitated cross-team alignment • From meeting notes</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 p-3 bg-purple-50 rounded-lg border border-purple-100">
+                        <div class="w-8 h-8 rounded bg-purple-100 flex items-center justify-center text-purple-700 flex-shrink-0">
+                            ↑
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-sm font-medium text-gray-900">Mentored junior developer</div>
+                            <div class="text-xs text-gray-600 mt-1">1:1 on API design patterns • From calendar</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Sidebar (Context) -->
+            <!-- Sidebar (Timeline) -->
             <div class="w-64 border-l border-gray-200 bg-gray-50 p-4 hidden md:block">
-                <div class="text-xs font-medium text-gray-400 mb-4">Posts</div>
-                <div class="space-y-3">
-                    <div class="flex items-center gap-2 text-sm text-gray-600">
-                        <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        Mobile app kickoff
+                <div class="text-xs font-medium text-gray-400 mb-4">TIMELINE</div>
+                <div class="space-y-4">
+                    <div>
+                        <div class="text-xs font-medium text-gray-900 mb-2">This Week</div>
+                        <div class="text-xs text-gray-600">8 signals captured</div>
                     </div>
-                    <div class="flex items-center gap-2 text-sm text-gray-600">
-                        <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        Shipped: new typeahead...
+                    <div>
+                        <div class="text-xs font-medium text-gray-900 mb-2">This Month</div>
+                        <div class="text-xs text-gray-600">24 signals captured</div>
                     </div>
-                    <div class="flex items-center gap-2 text-sm text-gray-600">
-                        <svg class="w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        NYC team offsite
+                    <div>
+                        <div class="text-xs font-medium text-gray-900 mb-2">This Quarter</div>
+                        <div class="text-xs text-gray-600">87 signals captured</div>
                     </div>
                 </div>
 
-                <div class="text-xs font-medium text-gray-400 mt-8 mb-4">People</div>
-                <div class="space-y-3">
-                    <div class="flex items-center gap-2 text-sm text-gray-600">
-                        <img src="https://i.pravatar.cc/150?u=alex" class="w-5 h-5 rounded-full" />
-                        Alexandru
+                <div class="text-xs font-medium text-gray-400 mt-8 mb-4">SOURCES</div>
+                <div class="space-y-2">
+                    <div class="flex items-center justify-between text-xs">
+                        <span class="text-gray-600">Slack</span>
+                        <span class="font-medium text-gray-900">42</span>
                     </div>
-                    <div class="flex items-center gap-2 text-sm text-gray-600">
-                        <img src="https://i.pravatar.cc/150?u=nick" class="w-5 h-5 rounded-full" />
-                        Nick
+                    <div class="flex items-center justify-between text-xs">
+                        <span class="text-gray-600">Meetings</span>
+                        <span class="font-medium text-gray-900">28</span>
+                    </div>
+                    <div class="flex items-center justify-between text-xs">
+                        <span class="text-gray-600">Email</span>
+                        <span class="font-medium text-gray-900">17</span>
                     </div>
                 </div>
             </div>
@@ -105,11 +118,11 @@
     <!-- Testimonial -->
     <div class="max-w-3xl mx-auto">
         <blockquote class="text-lg text-gray-500 leading-relaxed">
-            Campsite is like the office for our remote team. It's a delightful space where we jam on ideas and <span class="bg-yellow-100 text-yellow-800 px-1 rounded">keep everyone updated on work-in-progress.</span>
+            "Instead of relying on my memory or asking team members to self-report, <span class="bg-primary-100 text-primary-800 px-1 rounded">Sunlight shows me exactly what each person accomplished and how they've grown.</span> It's transformed how I approach performance conversations."
         </blockquote>
         <div class="flex items-center gap-3 mt-4">
-            <img src="https://i.pravatar.cc/150?u=ryan" alt="Ryan Olson" class="w-8 h-8 rounded-full bg-gray-200 grayscale" />
-            <div class="text-sm text-gray-500">Ryan Olson, CTO at Retro</div>
+            <img src="https://i.pravatar.cc/150?u=manager2" alt="Engineering Manager" class="w-8 h-8 rounded-full bg-gray-200 grayscale" />
+            <div class="text-sm text-gray-500">Engineering Manager, Series A Startup</div>
         </div>
     </div>
 </section>

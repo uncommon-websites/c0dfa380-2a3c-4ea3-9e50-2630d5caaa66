@@ -1,7 +1,7 @@
 <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
     <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-20 max-w-2xl mx-auto tracking-tight">
-        Supercharge every post with<br />
-        apps and custom integrations
+        Integrates with the tools<br />
+        your team already uses
     </h2>
 
     <div class="relative h-[400px] max-w-3xl mx-auto flex items-center justify-center">
@@ -25,14 +25,16 @@
             <line x1="400" y1="200" x2="520" y2="240" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" />
         </svg>
 
-        <!-- Central Node (Campsite?) - Actually it seems empty or subtle in the screenshot, but let's put a small dot -->
+        <!-- Central Node (Sunlight) -->
         <div class="absolute w-4 h-4 bg-gray-200 rounded-full"></div>
 
         <!-- Logos -->
         
-        <!-- Linear -->
-        <div class="absolute top-[120px] left-[300px] w-14 h-14 bg-black rounded-2xl shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
-            <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        <!-- Gemini -->
+        <div class="absolute top-[120px] left-[300px] w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
+            <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
         </div>
 
         <!-- GitHub -->
@@ -54,29 +56,41 @@
             </svg>
         </div>
 
-        <!-- Stripe (Purple S) -->
-        <div class="absolute top-[140px] left-[480px] w-14 h-14 bg-[#635BFF] rounded-2xl shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
-            <span class="text-white font-bold text-2xl italic">S</span>
+        <!-- Zoom -->
+        <div class="absolute top-[140px] left-[480px] w-14 h-14 bg-[#2D8CFF] rounded-2xl shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
+            <svg class="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23 7 16 12 23 17 23 7"/>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
         </div>
 
-        <!-- Zapier -->
-        <div class="absolute top-[240px] left-[520px] w-14 h-14 bg-[#FF4F00] rounded-full shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
-            <span class="text-white font-bold text-xs">*</span>
+        <!-- Granola -->
+        <div class="absolute top-[240px] left-[520px] w-14 h-14 bg-gradient-to-br from-orange-400 to-red-500 rounded-full shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
+            <span class="text-white font-bold text-xl">G</span>
         </div>
 
-        <!-- HubSpot -->
-        <div class="absolute top-[200px] left-[580px] w-14 h-14 bg-[#FF7A59] rounded-full shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
-             <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><circle cx="12" cy="12" r="3"/></svg>
+        <!-- Gmail -->
+        <div class="absolute top-[200px] left-[580px] w-14 h-14 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
+             <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="#EA4335"/>
+                <path d="M22 6l-10 7L2 6" stroke="white" stroke-width="2"/>
+             </svg>
         </div>
 
-        <!-- Notion -->
+        <!-- Google Calendar -->
         <div class="absolute top-[280px] left-[500px] w-14 h-14 bg-white border border-gray-200 rounded-lg shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
-            <svg class="w-8 h-8 text-black" viewBox="0 0 24 24" fill="currentColor"><path d="M4.459 4.208c.746.606 1.026.56 2.194.56.886 0 2.707-.28 3.64-.514a.6.6 0 0 1 .49.117l7.97 4.646c.327.21.28.56.28.887v9.406c0 .654-.373.841-1.073.841-.653 0-4.01-.7-5.036-.887a.6.6 0 0 1-.443-.304l-7.97-12.79c-.21-.35-.07-.607.42-.91zm1.306 1.587c-.163.28-.07.514.164.887l7.223 11.576c.21.35.397.304.397-.07V8.588c0-.56.326-.793.886-.933.56-.14 2.984-.653 3.543-.747.373-.07.467-.28.14-.49l-7.036-4.103c-.21-.117-.373-.07-.466.07l-4.85 5.408z"/></svg>
+            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="4" width="18" height="18" rx="2" fill="#4285F4"/>
+                <path d="M3 8h18" stroke="white" stroke-width="2"/>
+                <text x="12" y="16" text-anchor="middle" fill="white" font-size="8" font-weight="bold">31</text>
+            </svg>
         </div>
         
-        <!-- Intercom -->
-         <div class="absolute top-[270px] left-[430px] w-14 h-14 bg-black rounded-2xl shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
-             <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V8h2v4zm4 4h-2v-2h2v2zm0-4h-2V8h2v4z"/></svg>
+        <!-- Microsoft Teams -->
+         <div class="absolute top-[270px] left-[430px] w-14 h-14 bg-[#5B5FC7] rounded-2xl shadow-lg flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform cursor-pointer">
+             <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 8h-4V4H8v4H4v8h4v4h8v-4h4V8zm-6 8h-4v-4h4v4z"/>
+             </svg>
         </div>
 
     </div>

@@ -1,44 +1,91 @@
 <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col items-center">
-    <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-12 max-w-xl tracking-tight">
-        Posts are the sweet spots<br />
-        between chat and docs
+    <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4 max-w-2xl tracking-tight">
+        Context captured automatically<br />
+        from your existing tools
     </h2>
+    
+    <p class="text-lg text-gray-500 text-center max-w-xl mb-12">
+        Sunlight connects to Slack, email, and AI notetakers to build a continuous view of team performance—no manual updates required.
+    </p>
 
-    <div class="relative w-full max-w-2xl">
-        <!-- Mock Post Header -->
-        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-4 flex items-center gap-4">
-            <div class="w-10 h-10 rounded-full bg-gray-200 overflow-hidden flex-shrink-0">
-                <img src="https://i.pravatar.cc/150?u=brian" alt="Brian" class="w-full h-full object-cover" />
-            </div>
-            <div class="flex-1 min-w-0">
-                <div class="flex items-center gap-2 mb-0.5">
-                    <span class="font-semibold text-gray-900 truncate">What we're working on · September 2024</span>
+    <div class="relative w-full max-w-3xl">
+        <!-- Integration Flow -->
+        <div class="grid grid-cols-3 gap-4 mb-8">
+            <!-- Slack -->
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 flex flex-col items-center gap-3">
+                <div class="w-12 h-12 bg-white border border-gray-200 rounded-lg flex items-center justify-center">
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
+                        <rect x="3" y="3" width="18" height="18" rx="4" fill="white"/>
+                        <circle cx="8.5" cy="8.5" r="2" fill="#E01E5A"/>
+                        <rect x="11.5" y="6.5" width="4" height="4" rx="2" fill="#36C5F0"/>
+                        <circle cx="15.5" cy="15.5" r="2" fill="#2EB67D"/>
+                        <rect x="7.5" y="13.5" width="4" height="4" rx="2" fill="#ECB22E"/>
+                    </svg>
                 </div>
-                <div class="flex items-center gap-2 text-sm text-gray-500">
-                    <span class="font-medium text-gray-900">34</span>
-                    <span class="truncate">Brian: Hey everyone, thanks for joining this space and sharing...</span>
+                <div class="text-center">
+                    <div class="font-medium text-gray-900 text-sm">Slack</div>
+                    <div class="text-xs text-gray-500 mt-1">Kudos, updates, wins</div>
                 </div>
             </div>
-            <div class="flex-shrink-0">
-                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-gray-50 border border-gray-200 text-xs font-medium text-gray-600">
-                    <svg class="w-3 h-3 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-                    Product
-                </span>
+
+            <!-- Email -->
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 flex flex-col items-center gap-3">
+                <div class="w-12 h-12 bg-white border border-gray-200 rounded-lg flex items-center justify-center">
+                    <svg class="w-7 h-7 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </div>
+                <div class="text-center">
+                    <div class="font-medium text-gray-900 text-sm">Email</div>
+                    <div class="text-xs text-gray-500 mt-1">Feedback, recognition</div>
+                </div>
+            </div>
+
+            <!-- AI Notetakers -->
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 flex flex-col items-center gap-3">
+                <div class="w-12 h-12 bg-white border border-gray-200 rounded-lg flex items-center justify-center">
+                    <svg class="w-7 h-7 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 16v-4M12 8h.01"/>
+                    </svg>
+                </div>
+                <div class="text-center">
+                    <div class="font-medium text-gray-900 text-sm">AI Notetakers</div>
+                    <div class="text-xs text-gray-500 mt-1">Meeting insights</div>
+                </div>
             </div>
         </div>
 
-        <!-- Hand drawn arrow and text -->
-        <div class="absolute -bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center">
-             <div class="relative">
-                <svg width="120" height="60" viewBox="0 0 120 60" fill="none" class="text-gray-300 transform rotate-12">
-                    <path d="M10,50 Q60,60 110,10" stroke="currentColor" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
-                    <defs>
-                        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-                        <polygon points="0 0, 10 3.5, 0 7" fill="currentColor" />
-                        </marker>
-                    </defs>
+        <!-- Arrow Down -->
+        <div class="flex justify-center mb-8">
+            <svg class="w-6 h-6 text-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"/>
+                <polyline points="19 12 12 19 5 12"/>
+            </svg>
+        </div>
+
+        <!-- Sunlight Result -->
+        <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg border border-gray-200 p-6">
+            <div class="flex items-center gap-3 mb-4">
+                <svg width="24" height="24" viewBox="0 0 112 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M111.712 30.2285V0C92.366 0 73.5034 6.52934 59.961 17.8952L56.3336 20.7972L52.7062 17.8952C38.922 6.52934 20.3013 0 0.955078 0V30.2285C0.955078 38.4506 3.85704 46.1891 8.6936 52.7184C3.85704 59.2478 0.955078 66.9863 0.955078 75.2085V105.437C20.3013 105.437 39.1639 98.9076 52.7062 87.5417L56.3336 84.6397C46.9023 79.0777 41.0985 69.1627 41.0985 58.0387V47.3983C41.0985 36.516 46.9023 26.3592 56.3336 20.7972C65.7649 26.3592 71.5688 36.516 71.5688 47.3983V58.0387C71.5688 68.9209 65.7649 79.0777 56.3336 84.6397L59.961 87.5417C73.7452 98.9076 92.366 105.437 111.712 105.437V75.2085C111.712 66.9863 108.81 59.2478 103.974 52.7184C108.81 46.1891 111.712 38.4506 111.712 30.2285Z" fill="#201B21"/>
                 </svg>
-                <span class="absolute top-8 left-1/2 -translate-x-1/2 text-gray-400 font-handwriting text-sm whitespace-nowrap font-serif italic">See a real post</span>
+                <span class="font-semibold text-gray-900">Continuous Performance Context</span>
+            </div>
+            <div class="space-y-2 text-sm text-gray-600">
+                <div class="flex items-center gap-2">
+                    <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+                    Real-time signal capture from daily work
+                </div>
+                <div class="flex items-center gap-2">
+                    <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+                    Organized by team member and time period
+                </div>
+                <div class="flex items-center gap-2">
+                    <div class="w-1.5 h-1.5 rounded-full bg-green-500"></div>
+                    Ready when you need it for reviews
+                </div>
             </div>
         </div>
     </div>
