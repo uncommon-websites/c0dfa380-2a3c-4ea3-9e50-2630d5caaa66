@@ -200,16 +200,29 @@
             </div>
         </div>
 
-        <!-- Stats Bar -->
-        <div class="px-8 py-3 bg-gray-50 border-y border-gray-100">
-            <div class="flex gap-6 text-xs">
-                <div class="flex items-center gap-1.5">
-                    <span class="text-gray-500">This week:</span>
-                    <span class="font-semibold text-gray-900">24 signals captured</span>
+        <!-- Synthesis Card -->
+        <div class="px-8 py-4 bg-gray-50 border-y border-gray-100">
+            <div class="bg-white border border-gray-200 rounded-lg p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-sm font-semibold text-gray-900">This week</h3>
+                    <span class="text-xs text-gray-500">24 signals captured</span>
                 </div>
-                <div class="flex items-center gap-1.5">
-                    <span class="text-gray-500">Avg per person:</span>
-                    <span class="font-semibold text-gray-900">4.2</span>
+                <div class="space-y-2 text-sm">
+                    <div class="flex items-center gap-2">
+                        <span class="font-medium text-gray-900">7 achievements</span>
+                        <span class="text-gray-400">·</span>
+                        <span class="font-medium text-gray-900">2 growth areas flagged</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-xs pt-1">
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-green-600">↑</span>
+                            <span class="text-gray-600">Marcus Rodriguez trending up</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-orange-500">→</span>
+                            <span class="text-gray-600">Jordan Lee needs attention</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
